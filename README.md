@@ -28,8 +28,10 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/podsyp/how-to
 - **Libraries**: PySpark, XGBoost, Pandas, Scikit-learn
 - **Data Visualization**: Matplotlib, Seaborn
 
-### Conclusion
+### Conclusions
 
-This project aims to provide a comprehensive analysis of banner performance and user behavior for an online sporting goods store. By leveraging data-driven insights and A/B testing, we can help the store manager make informed decisions about which banners to keep, replace, or optimize to maximize user engagement and conversions.
+- The clothing banner has the highest clickthrough rate AND highest conversion rate.
+- The desktop site has a lower clickthrough rate but a higher conversion rate.
+- We find 4 clusters through KMeans. One cluster corresponds to non-buyers, while the other 3 cluster based on time.
 
 For more details, please refer to the [Jupyter Notebook](https://github.com/rsuhendra/product_analytics/blob/main/spark.ipynb) included in this repository.
